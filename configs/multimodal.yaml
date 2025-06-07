@@ -1,0 +1,28 @@
+data:
+  image_train_dir: "data/processed/images/train"
+  tabular_train_path: "data/processed/tabular/train.csv"
+  target_train_path: "data/processed/targets/train.csv"
+  image_val_dir: "data/processed/images/val"
+  tabular_val_path: "data/processed/tabular/val.csv"
+  target_val_path: "data/processed/targets/val.csv"
+
+model:
+  name: "DAFTMultimodal"
+  bottleneck_factor: 5
+  dropout_rate: 0.3
+
+training:
+  epochs: 100
+  batch_size: 8
+  model_save_path: "models/multimodal/best_daft_model.pth"
+
+optimizer:
+  name: "AdamW"
+  lr: 0.001
+  weight_decay: 0.0001
+
+scheduler:
+  name: "ReduceLROnPlateau"
+  factor: 0.5
+  patience: 5
+  mode: "max"

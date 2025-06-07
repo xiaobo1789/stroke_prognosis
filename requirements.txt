@@ -1,0 +1,24 @@
+# 核心框架（PyTorch 2.7.0 + CUDA 12.1，兼容 CUDA 12.9 驱动）
+torch==2.7.0+cu121         
+torchvision==0.18.0+cu121   # 与 torch 2.7.0 严格匹配的 CU121 版本
+
+# 医学影像与多模态处理
+monai==1.3.0               # 支持 PyTorch 2.7 的医学影像增强
+nibabel==5.1.0             # 医学影像格式读取
+
+# 表格数据与特征工程
+pytorch-tabnet==4.0.0      # 兼容 PyTorch 2.0+ 的 TabNet 实现
+scikit-learn==1.2.2        # 数据预处理工具
+pandas==2.0.3               # 表格数据处理
+numpy==1.24.3              # 数值计算
+scipy==1.10.1              # 科学计算
+
+# 图像处理与可视化
+scikit-image==0.20.0       # 轻量图像处理
+matplotlib==3.7.1          # 结果可视化
+seaborn==0.12.2            # 统计图表
+
+# 实用工具
+tqdm==4.65.0               # 进度条
+pyyaml==6.0                # 配置解析
+joblib==1.2.0              # 并行计算

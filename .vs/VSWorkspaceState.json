@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\configs",
+    "\\configs\\experiment_configs",
+    "\\data",
+    "\\models",
+    "\\preprocessing",
+    "\\scripts",
+    "\\training"
+  ],
+  "SelectedNode": "\\data\\preprocessing.py",
+  "PreviewInSolutionExplorer": false
+}
