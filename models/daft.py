@@ -1,6 +1,28 @@
 import torch
 import torch.nn as nn
 
+class DAFTBlock(nn.Module):
+    """动态仿射特征变换模块"""
+    def __init__(self, img_channels, tabular_dim, reduction=4):
+        super().__init__()
+        self.gap = nn.AdaptiveAvgPool3d(1)
+        self.fc = nn.Sequential(
+            nn.Linear(img_channels + tabular_dim, (img_channels + tabular_dim) // reduction),
+            nn.ReLU(),
+            nn.Linear((img_channels + tabular_dim) // reduction, img_channels * 2)
+        )
+
+    def forward(self, img_feats, tabular):
+        pooled = self.gap(img_feats).flatten(1)
+        combined = torch.cat([pooled, tabular], dim=1)
+        params = self.fc(combined)
+        scale, shift = params.chunk(2, dim=1)
+        
+        # 扩展维度匹配特征图 [B, C, 1, 1, 1]
+        scale = scale.view(*scale.shape, 1, 1, 1)
+        shift = shift.view(*shift.shape, 1, 1, 1)
+        
+        return img_feats * scale + shift
 class DAFT(nn.Module):
     """Dynamic Affine Feature Map Transform (DAFT)模块"""
     def __init__(self, base_resnet, tabular_dim, num_classes=1, bottleneck_factor=5):

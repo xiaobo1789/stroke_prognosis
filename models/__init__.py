@@ -2,7 +2,7 @@ from .tabnet import TabNet
 from .resnet import ResNet10
 from .daft import DAFT, DAFTResNet
 from .fusion_models import LateFusion, HybridFusion
-
+from .multimodal_daft import MultimodalDAFT, get_multimodal_model
 def create_model(model_type, config):
     """根据配置创建模型"""
     if model_type == 'TabNet':

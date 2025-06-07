@@ -9,10 +9,12 @@ from configs.base_config import BaseConfig
 from models import create_model
 import sys
 import os
-
+from models import get_multimodal_model
 # 获取项目根目录（即当前脚本的父目录）
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append(project_root)  # 添加到Python路径
+class_weights = 1.0 / torch.tensor([count0, count1, count2, count3], dtype=torch.float)
+criterion = CrossEntropyLoss(weight=class_weights)
 def main(model_type):
     # 加载配置
     config = BaseConfig()
