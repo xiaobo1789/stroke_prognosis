@@ -4,3 +4,10 @@ MedicalNet_pytorch_files2/
 temp/
 MedicalNet_pytorch_files2/
 .vs/
+
+
+# IDE 临时文件
+.vs/
+.vscode/
+*.suo
+*.user

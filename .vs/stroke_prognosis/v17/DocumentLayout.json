@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "F:\\stroke_prognosis\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\preprocessing\\data_loader.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:preprocessing\\data_loader.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\models\\daft.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\daft.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\data\\preprocessing.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data\\preprocessing.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\setup.py||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:setup.py||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\scripts\\train.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\train.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\configs\\base_config.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:configs\\base_config.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\models\\multimodal_nihss_predictor.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\multimodal_nihss_predictor.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\scripts\\modified_stroke_dataset_loader.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:scripts\\modified_stroke_dataset_loader.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\models\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\models\\multimodal_daft.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\multimodal_daft.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\setup.py||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:setup.py||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\models\\medicalnet.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -23,16 +51,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:configs\\multimodal.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\configs\\base_config.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:configs\\base_config.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\models\\resnet.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\resnet.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\models\\daft.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\daft.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\models\\architectures.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -65,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\preprocessing\\imaging.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:preprocessing\\imaging.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\models\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\stroke_prognosis\\models\\tabnet.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -106,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,44 +130,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "setup.py",
-              "DocumentMoniker": "F:\\stroke_prognosis\\setup.py",
-              "RelativeDocumentMoniker": "setup.py",
-              "ToolTip": "F:\\stroke_prognosis\\setup.py",
-              "RelativeToolTip": "setup.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "multimodal_nihss_predictor.py",
+              "DocumentMoniker": "F:\\stroke_prognosis\\models\\multimodal_nihss_predictor.py",
+              "RelativeDocumentMoniker": "models\\multimodal_nihss_predictor.py",
+              "ToolTip": "F:\\stroke_prognosis\\models\\multimodal_nihss_predictor.py",
+              "RelativeToolTip": "models\\multimodal_nihss_predictor.py",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-05T12:48:02.202Z",
+              "WhenOpened": "2025-06-07T10:38:11.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "resnet.py",
-              "DocumentMoniker": "F:\\stroke_prognosis\\models\\resnet.py",
-              "RelativeDocumentMoniker": "models\\resnet.py",
-              "ToolTip": "F:\\stroke_prognosis\\models\\resnet.py",
-              "RelativeToolTip": "models\\resnet.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "modified_stroke_dataset_loader.py",
+              "DocumentMoniker": "F:\\stroke_prognosis\\scripts\\modified_stroke_dataset_loader.py",
+              "RelativeDocumentMoniker": "scripts\\modified_stroke_dataset_loader.py",
+              "ToolTip": "F:\\stroke_prognosis\\scripts\\modified_stroke_dataset_loader.py",
+              "RelativeToolTip": "scripts\\modified_stroke_dataset_loader.py",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-03T09:51:25.086Z"
+              "WhenOpened": "2025-06-07T10:37:13.255Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "architectures.py",
-              "DocumentMoniker": "F:\\stroke_prognosis\\models\\architectures.py",
-              "RelativeDocumentMoniker": "models\\architectures.py",
-              "ToolTip": "F:\\stroke_prognosis\\models\\architectures.py",
-              "RelativeToolTip": "models\\architectures.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Title": "multimodal_daft.py",
+              "DocumentMoniker": "F:\\stroke_prognosis\\models\\multimodal_daft.py",
+              "RelativeDocumentMoniker": "models\\multimodal_daft.py",
+              "ToolTip": "F:\\stroke_prognosis\\models\\multimodal_daft.py",
+              "RelativeToolTip": "models\\multimodal_daft.py",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAiwJIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-04T05:49:24.752Z"
+              "WhenOpened": "2025-06-07T09:58:34.816Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "data_loader.py",
+              "DocumentMoniker": "F:\\stroke_prognosis\\preprocessing\\data_loader.py",
+              "RelativeDocumentMoniker": "preprocessing\\data_loader.py",
+              "ToolTip": "F:\\stroke_prognosis\\preprocessing\\data_loader.py",
+              "RelativeToolTip": "preprocessing\\data_loader.py",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-07T09:32:17.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "daft.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\models\\daft.py",
               "RelativeDocumentMoniker": "models\\daft.py",
@@ -159,11 +190,12 @@
               "RelativeToolTip": "models\\daft.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-03T09:25:14.1Z"
+              "WhenOpened": "2025-06-03T09:25:14.1Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "preprocessing.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\data\\preprocessing.py",
               "RelativeDocumentMoniker": "data\\preprocessing.py",
@@ -176,7 +208,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
+              "Title": "train.py",
+              "DocumentMoniker": "F:\\stroke_prognosis\\scripts\\train.py",
+              "RelativeDocumentMoniker": "scripts\\train.py",
+              "ToolTip": "F:\\stroke_prognosis\\scripts\\train.py",
+              "RelativeToolTip": "scripts\\train.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-03T09:27:14.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "base_config.py",
+              "DocumentMoniker": "F:\\stroke_prognosis\\configs\\base_config.py",
+              "RelativeDocumentMoniker": "configs\\base_config.py",
+              "ToolTip": "F:\\stroke_prognosis\\configs\\base_config.py",
+              "RelativeToolTip": "configs\\base_config.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-03T09:26:52.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "architectures.py",
+              "DocumentMoniker": "F:\\stroke_prognosis\\models\\architectures.py",
+              "RelativeDocumentMoniker": "models\\architectures.py",
+              "ToolTip": "F:\\stroke_prognosis\\models\\architectures.py",
+              "RelativeToolTip": "models\\architectures.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-04T05:49:24.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "augmentation.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\data\\augmentation.py",
               "RelativeDocumentMoniker": "data\\augmentation.py",
@@ -188,19 +258,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "base_config.py",
-              "DocumentMoniker": "F:\\stroke_prognosis\\configs\\base_config.py",
-              "RelativeDocumentMoniker": "configs\\base_config.py",
-              "ToolTip": "F:\\stroke_prognosis\\configs\\base_config.py",
-              "RelativeToolTip": "configs\\base_config.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "__init__.py",
+              "DocumentMoniker": "F:\\stroke_prognosis\\models\\__init__.py",
+              "RelativeDocumentMoniker": "models\\__init__.py",
+              "ToolTip": "F:\\stroke_prognosis\\models\\__init__.py",
+              "RelativeToolTip": "models\\__init__.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-03T09:26:52.555Z"
+              "WhenOpened": "2025-06-03T09:52:05.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
+              "Title": "resnet.py",
+              "DocumentMoniker": "F:\\stroke_prognosis\\models\\resnet.py",
+              "RelativeDocumentMoniker": "models\\resnet.py",
+              "ToolTip": "F:\\stroke_prognosis\\models\\resnet.py",
+              "RelativeToolTip": "models\\resnet.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-03T09:51:25.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "setup.py",
+              "DocumentMoniker": "F:\\stroke_prognosis\\setup.py",
+              "RelativeDocumentMoniker": "setup.py",
+              "ToolTip": "F:\\stroke_prognosis\\setup.py",
+              "RelativeToolTip": "setup.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-05T12:48:02.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "multimodal.yaml",
               "DocumentMoniker": "F:\\stroke_prognosis\\configs\\multimodal.yaml",
               "RelativeDocumentMoniker": "configs\\multimodal.yaml",
@@ -212,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "medicalnet.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\models\\medicalnet.py",
               "RelativeDocumentMoniker": "models\\medicalnet.py",
@@ -224,19 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "train.py",
-              "DocumentMoniker": "F:\\stroke_prognosis\\scripts\\train.py",
-              "RelativeDocumentMoniker": "scripts\\train.py",
-              "ToolTip": "F:\\stroke_prognosis\\scripts\\train.py",
-              "RelativeToolTip": "scripts\\train.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-03T09:27:14.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "tabular.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\preprocessing\\tabular.py",
               "RelativeDocumentMoniker": "preprocessing\\tabular.py",
@@ -248,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "interpret.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\training\\interpret.py",
               "RelativeDocumentMoniker": "training\\interpret.py",
@@ -260,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "requirements.txt",
               "DocumentMoniker": "F:\\stroke_prognosis\\requirements.txt",
               "RelativeDocumentMoniker": "requirements.txt",
@@ -272,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "fusion_models.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\models\\fusion_models.py",
               "RelativeDocumentMoniker": "models\\fusion_models.py",
@@ -284,19 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "__init__.py",
-              "DocumentMoniker": "F:\\stroke_prognosis\\models\\__init__.py",
-              "RelativeDocumentMoniker": "models\\__init__.py",
-              "ToolTip": "F:\\stroke_prognosis\\models\\__init__.py",
-              "RelativeToolTip": "models\\__init__.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-03T09:52:05.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "export_model.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\scripts\\export_model.py",
               "RelativeDocumentMoniker": "scripts\\export_model.py",
@@ -308,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "imaging.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\preprocessing\\imaging.py",
               "RelativeDocumentMoniker": "preprocessing\\imaging.py",
@@ -320,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "train_multimodal.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\training\\train_multimodal.py",
               "RelativeDocumentMoniker": "training\\train_multimodal.py",
@@ -332,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "utils.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\training\\utils.py",
               "RelativeDocumentMoniker": "training\\utils.py",
@@ -344,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "dataset.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\data\\dataset.py",
               "RelativeDocumentMoniker": "data\\dataset.py",
@@ -356,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "tabnet.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\models\\tabnet.py",
               "RelativeDocumentMoniker": "models\\tabnet.py",
@@ -368,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "predictor.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\inference\\predictor.py",
               "RelativeDocumentMoniker": "inference\\predictor.py",
@@ -380,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "trainer.py",
               "DocumentMoniker": "F:\\stroke_prognosis\\training\\trainer.py",
               "RelativeDocumentMoniker": "training\\trainer.py",
@@ -392,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "README.md",
               "DocumentMoniker": "F:\\stroke_prognosis\\README.md",
               "RelativeDocumentMoniker": "README.md",

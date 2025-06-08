@@ -135,8 +135,7 @@
               "RelativeToolTip": "models\\resnet.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-03T09:51:25.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T09:51:25.086Z"
             },
             {
               "$type": "Document",
@@ -148,8 +147,7 @@
               "RelativeToolTip": "models\\architectures.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-04T05:49:24.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T05:49:24.752Z"
             },
             {
               "$type": "Document",
@@ -161,8 +159,7 @@
               "RelativeToolTip": "models\\daft.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-03T09:25:14.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T09:25:14.1Z"
             },
             {
               "$type": "Document",
@@ -187,8 +184,7 @@
               "RelativeToolTip": "data\\augmentation.py",
               "ViewState": "AgIAAAQAAAAAAAAAAAAkwA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-03T09:51:07.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T09:51:07.545Z"
             },
             {
               "$type": "Document",
@@ -200,8 +196,7 @@
               "RelativeToolTip": "configs\\base_config.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-03T09:26:52.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T09:26:52.555Z"
             },
             {
               "$type": "Document",
@@ -213,8 +208,7 @@
               "RelativeToolTip": "configs\\multimodal.yaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-06-04T10:02:57.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T10:02:57.105Z"
             },
             {
               "$type": "Document",
@@ -226,8 +220,7 @@
               "RelativeToolTip": "models\\medicalnet.py",
               "ViewState": "AgIAAEsAAAAAAAAAAAAgwFIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-04T10:15:19.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T10:15:19.004Z"
             },
             {
               "$type": "Document",
@@ -239,8 +232,7 @@
               "RelativeToolTip": "scripts\\train.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-03T09:27:14.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T09:27:14.68Z"
             },
             {
               "$type": "Document",
@@ -252,8 +244,7 @@
               "RelativeToolTip": "preprocessing\\tabular.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-04T05:44:51.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T05:44:51.199Z"
             },
             {
               "$type": "Document",
@@ -265,8 +256,7 @@
               "RelativeToolTip": "training\\interpret.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-06-03T09:53:10.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T09:53:10.292Z"
             },
             {
               "$type": "Document",
@@ -278,8 +268,7 @@
               "RelativeToolTip": "requirements.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-06-03T09:31:44.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T09:31:44.126Z"
             },
             {
               "$type": "Document",

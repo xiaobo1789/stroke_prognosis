@@ -1,6 +1,9 @@
 import argparse
 import json
 import torch
+from configs.base_config import required_clinical_features
+from scripts.modified_stroke_dataset_loader import StrokeDataset
+from models.multimodal_nihss_predictor import MultimodalNIHSSPredictor
 from torch.utils.data import DataLoader
 from data.dataset import StrokeDataset
 from data.augmentation import CTPerfusionAugmentor
@@ -8,8 +11,14 @@ from training.trainer import StrokeTrainer
 from configs.base_config import BaseConfig
 from models import create_model
 import sys
+from sklearn.metrics import mean_absolute_error, mean_squared_error
 import os
 from models import get_multimodal_model
+# 创建数据集
+train_dataset = StrokeDataset(csv_file='data/train.csv', root_dir='data', clinical_features=required_clinical_features)
+criterion = nn.MSELoss()    
+# 创建模型
+model = MultimodalNIHSSPredictor(clinical_features=required_clinical_features)
 # 获取项目根目录（即当前脚本的父目录）
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append(project_root)  # 添加到Python路径

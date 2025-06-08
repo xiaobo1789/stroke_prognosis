@@ -5,10 +5,11 @@
     "\\configs\\experiment_configs",
     "\\data",
     "\\models",
+    "\\models\\__pycache__",
     "\\preprocessing",
     "\\scripts",
     "\\training"
   ],
-  "SelectedNode": "\\data\\preprocessing.py",
+  "SelectedNode": "\\preprocessing\\data_loader.py",
   "PreviewInSolutionExplorer": false
 }
