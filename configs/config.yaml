@@ -1,0 +1,11 @@
+data:
+  img_dir: '/path/to/nifti/files'  # 影像数据路径
+  csv_path: '/path/to/clinical_data.csv'  # 表格数据路径
+  output_classes: 4  # NIHSS类别数
+model:
+  use_daft: true  # 是否使用DAFT融合技术
+  fusion_type: 'hybrid'  # 融合方式
+training:
+  batch_size: 8
+  lr: 0.0001
+  epochs: 50

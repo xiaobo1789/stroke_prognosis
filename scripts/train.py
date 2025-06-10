@@ -5,6 +5,7 @@ from configs.base_config import required_clinical_features
 from scripts.modified_stroke_dataset_loader import StrokeDataset
 from models.multimodal_nihss_predictor import MultimodalNIHSSPredictor
 from torch.utils.data import DataLoader
+import torch.nn as nn
 from data.dataset import StrokeDataset
 from data.augmentation import CTPerfusionAugmentor
 from training.trainer import StrokeTrainer
@@ -14,6 +15,34 @@ import sys
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 import os
 from models import get_multimodal_model
+def train_model(model, dataloader, epochs=50):
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    model.to(device)
+    
+    # 加权交叉熵损失
+    class_counts = [100, 50, 30, 20]  # 假设的类别样本数
+    weights = 1. / torch.tensor(class_counts, dtype=torch.float)
+    weights = weights / weights.sum()
+    criterion = nn.CrossEntropyLoss(weight=weights.to(device))
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.0001)
+    
+    for epoch in range(epochs):
+        for batch in dataloader:
+            ct_pre, ct_post, mr_post, tabular, labels = batch.values()
+            ct_pre, ct_post, mr_post, tabular, labels = (
+                ct_pre.to(device), ct_post.to(device), mr_post.to(device),
+                tabular.to(device), labels.to(device)
+            )
+            optimizer.zero_grad()
+            outputs = model(ct_pre, ct_post, mr_post, tabular)
+            loss = criterion(outputs, labels)
+            loss.backward()
+            optimizer.step()
+        print(f'Epoch {epoch+1}, Loss: {loss.item()}')
+
+# 示例数据加载器（需根据实际数据集实现）
+# dataloader = DataLoader(dataset, batch_size=8, shuffle=True)
+# train_model(model, dataloader)
 # 创建数据集
 train_dataset = StrokeDataset(csv_file='data/train.csv', root_dir='data', clinical_features=required_clinical_features)
 criterion = nn.MSELoss()    

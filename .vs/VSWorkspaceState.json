@@ -2,14 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\configs",
-    "\\configs\\experiment_configs",
-    "\\data",
-    "\\models",
-    "\\models\\__pycache__",
-    "\\preprocessing",
     "\\scripts",
+    "\\stroke_prognosis_env",
+    "\\stroke_prognosis_env\\Lib",
+    "\\stroke_prognosis_env\\Lib\\site-packages",
+    "\\stroke_prognosis_env\\Lib\\site-packages\\pip",
+    "\\stroke_prognosis_env\\Lib\\site-packages\\pip\\_vendor",
+    "\\stroke_prognosis_env\\Lib\\site-packages\\pip\\_vendor\\requests",
     "\\training"
   ],
-  "SelectedNode": "\\preprocessing\\data_loader.py",
+  "SelectedNode": "\\stroke_prognosis_env\\Lib\\site-packages\\pip\\_vendor\\requests\\models.py",
   "PreviewInSolutionExplorer": false
 }

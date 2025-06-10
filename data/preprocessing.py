@@ -6,7 +6,32 @@ from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 from sklearn.preprocessing import StandardScaler
 from scipy.ndimage import zoom
+import ants
+import torch
+from monai.networks.nets import UNet
 
+def register_images(fixed_path, moving_path):
+    fixed = ants.image_read(fixed_path)  # 固定影像（例如post_ct）
+    moving = ants.image_read(moving_path)  # 移动影像（例如pre_ct）
+    reg = ants.registration(fixed, moving, type_of_transform='Rigid')
+    return reg['warpedmovout']
+
+def extract_brain_roi(image):
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    unet_model = UNet(
+        spatial_dims=3,
+        in_channels=1,
+        out_channels=1,
+        channels=(16, 32, 64),
+        strides=(2, 2)
+    ).to(device)
+    # 假设输入影像已转换为张量
+    brain_mask = unet_model(image.unsqueeze(0)).squeeze(0)
+    return brain_mask
+
+# 示例调用
+registered_img = register_images('post_ct.nii.gz', 'pre_ct.nii.gz')
+brain_roi = extract_brain_roi(registered_img)
 class TabularPreprocessor:
     def __init__(self):
         self.scaler = StandardScaler()
