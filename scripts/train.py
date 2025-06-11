@@ -9,12 +9,20 @@ import torch.nn as nn
 from data.dataset import StrokeDataset
 from data.augmentation import CTPerfusionAugmentor
 from training.trainer import StrokeTrainer
+from sklearn.utils.class_weight import compute_class_weight
 from configs.base_config import BaseConfig
 from models import create_model
 import sys
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 import os
 from models import get_multimodal_model
+# 计算类别权重
+class_weights = compute_class_weight(
+    class_weight='balanced',
+    classes=np.unique(train_labels),
+    y=train_labels
+)
+criterion = nn.CrossEntropyLoss(weight=torch.tensor(class_weights, dtype=torch.float).to(device))
 def train_model(model, dataloader, epochs=50):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model.to(device)
@@ -29,6 +37,10 @@ def train_model(model, dataloader, epochs=50):
     for epoch in range(epochs):
         for batch in dataloader:
             ct_pre, ct_post, mr_post, tabular, labels = batch.values()
+            ct_post = batch['image_post'].to(device)  # 新增治疗后CT
+            labels = batch['label'].long().to(device)  # 标签转为long类型（分类任务）
+            outputs = model(ct_pre, ct_post, tabular)  # 假设模型输入包含治疗后CT
+     
             ct_pre, ct_post, mr_post, tabular, labels = (
                 ct_pre.to(device), ct_post.to(device), mr_post.to(device),
                 tabular.to(device), labels.to(device)

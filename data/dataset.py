@@ -30,7 +30,7 @@ class StrokeDataset(Dataset):
             self.tabular_data = self.tabular_preprocessor.transform(tabular_features.values)
         
         # 标签：二分类（0: mRS 0-2, 1: mRS 3-6）
-        self.labels = self.df['label'].values
+        self.labels = self.df['nihss_category'].values
         
         # 患者ID列表
         self.patient_ids = self.df['patient_id'].values
@@ -45,7 +45,9 @@ class StrokeDataset(Dataset):
         # 获取CT灌注图像
         patient_id = self.patient_ids[idx]
         ct_path = os.path.join(self.ct_root_dir, f"{patient_id}.npy")
-        
+        ct_post_path = os.path.join(self.ct_root_dir, "post", f"{patient_id}.npy")  # 假设治疗后CT在post子目录
+        ct_post = np.load(ct_post_path) if os.path.exists(ct_post_path) else np.zeros(self.target_shape)
+        ct_post_processed = self.ct_preprocessor.process(ct_post)
         # 加载CT扫描数据
         if os.path.exists(ct_path):
             ct_scan = np.load(ct_path)
@@ -64,6 +66,7 @@ class StrokeDataset(Dataset):
         return {
             'patient_id': patient_id,
             'tabular': tabular_tensor,
-            'image': ct_tensor,
-            'label': label
+            'image_pre': ct_tensor,  # 治疗前CT
+            'image_post': ct_post_processed,  # 治疗后CT
+            'label': label  # NIHSS分级标签（0-3）
         }

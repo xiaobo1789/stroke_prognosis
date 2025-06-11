@@ -1,6 +1,6 @@
 data:
-  img_dir: '/path/to/nifti/files'  # 影像数据路径
-  csv_path: '/path/to/clinical_data.csv'  # 表格数据路径
+  img_dir: 'F:\GGSJJAIDS\image'  # 影像数据路径
+  csv_path: 'F:\GGSJJAIDS\321.csv'  # 表格数据路径
   output_classes: 4  # NIHSS类别数
 model:
   use_daft: true  # 是否使用DAFT融合技术

@@ -5,7 +5,9 @@ from models.resnet import ResNet  # 假设ResNet在models/resnet.py中定义
 from models.resnet3d import ResNet3D  # 假设ResNet3D在models/resnet3d.py中定义
 
 class MultimodalNIHSSPredictor(nn.Module):
-    def __init__(self, clinical_features, tabnet_out=128, cnn_out=128):
+    def __init__(self, clinical_features, tabnet_out=128, cnn_out=128, num_classes=4):
+        super().__init__()
+        
         """
         初始化多模态NIHSS预测模型。
         参数：
@@ -18,7 +20,7 @@ class MultimodalNIHSSPredictor(nn.Module):
         self.cnn_ct_pre = ResNet(in_channels=1, out_channels=cnn_out)  # 治疗前CT平扫
         self.cnn_ct_post = ResNet(in_channels=1, out_channels=cnn_out)  # 治疗后CT平扫
         self.cnn_mri = ResNet3D(in_channels=1, out_channels=cnn_out)  # MRI（假设3D）
-        self.fusion = nn.Linear(tabnet_out + cnn_out * 3, 1)  # 回归输出NIHSS评分
+        self.fusion = nn.Linear(tabnet_out + cnn_out * 3, num_classes)  # 输出4类
 
     def forward(self, tabular, ct_pre, ct_post, mri):
         """

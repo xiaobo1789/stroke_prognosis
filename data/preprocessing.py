@@ -53,7 +53,8 @@ class CTPerfusionPreprocessor:
     def __init__(self, target_shape=(128, 128, 16)):
         self.target_shape = target_shape
         
-    def process(self, ct_scan):
+    def process(self, ct_scan, baseline_intensity=0.5):  # 假设基线强度为0.5（需根据实际数据调整）
+        cbv_map = self.calculate_cbv(ct_scan, baseline_intensity)
         """
         处理CT灌注扫描数据
         """
