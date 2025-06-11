@@ -1,14 +1,29 @@
 class BaseConfig:
     # 数据配置
     tabular_features = [
-        'age', 'gender', 'wake_up', 'arterial_fibrillation', 'referred',
-        'nihss_score', 'time_to_hospital', 'ivt', 'iat', 'door_to_needle',
-        'door_to_groin', 'occlusion_region', 'core_volume', 'core_percentage',
-        'penumbra_volume', 'penumbra_percentage'
+        's', 'treatment', 'name', 'id', 'Xid', 'date',
+        'CT1', 'CT2', 'CT3', 'MR1', 'MR2', 'MR-TOF',
+        'nihss', 'baseline1', 'n7', 'time', 'time1', 'time2', 'time3',
+        'dnt', 'hypertens', 'diabetes', 'hyperlipi', 'atrial', 'coronary',
+        'heart', 'previous', 'alcohol', 'smoking', 'baseline2', 'sbp1', 'sbp2',
+        'sbp3', 'sub4', 'baseline3', 'dbp1', 'dbp2', 'dbp3', 'dbp4',
+        'occlusion', 'fibrinoge', 'ddimer', 'fibrinoge1', 'k', 'na', 'cl', 'ca',
+        'alanine', 'aspartate', 'alkaline', 'glutamyl', 'total', 'field1',
+        'total1', 'direct', 'urea', 'creatinin', 'ua', 'total2', 'glucose', 'd',
+        'leucocyte', 'neutrophi', 'percentag', 'percentag1', 'percentag2',
+        'percentag3', 'neutrophi1', 'eosinophi', 'basophils', 'monocytes',
+        'lymphocyt', 'hemoglobi', 'red', 'blood', 'creactiv'
     ]
-    image_shape = (6, 128, 128, 16)  # 6个特征图，128x128x16
     
+    required_clinical_features = [
+        'nihss',  # 神经功能评分
+        'hypertens', 'diabetes', 'hyperlipi', 'atrial',  # 基础疾病（高血压、糖尿病、高血脂、房颤）
+        'sbp1', 'sbp2', 'sbp3', 'dbp1', 'dbp2', 'dbp3',  # 血压数据
+        'dnt', 'time',  # 时间维度特征（类似示例中的 time_to_hospital 等）
+        # 若有其他核心临床指标（如年龄、性别，需数据中存在对应字段），可在此补充
+    ]
     # 训练配置
+    image_shape = (6, 128, 128, 16)  # 6个特征图，128x128x16
     batch_size = 8
     epochs = 50
     learning_rate = 0.001

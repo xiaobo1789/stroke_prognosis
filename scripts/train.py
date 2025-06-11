@@ -1,7 +1,10 @@
+import os
+import sys
 import argparse
 import json
 import torch
-from configs.base_config import required_clinical_features
+from configs.base_config import BaseConfig  
+required_clinical_features = BaseConfig.required_clinical_features  
 from scripts.modified_stroke_dataset_loader import StrokeDataset
 from models.multimodal_nihss_predictor import MultimodalNIHSSPredictor
 from torch.utils.data import DataLoader
@@ -12,9 +15,7 @@ from training.trainer import StrokeTrainer
 from sklearn.utils.class_weight import compute_class_weight
 from configs.base_config import BaseConfig
 from models import create_model
-import sys
 from sklearn.metrics import mean_absolute_error, mean_squared_error
-import os
 from models import get_multimodal_model
 # 计算类别权重
 class_weights = compute_class_weight(
