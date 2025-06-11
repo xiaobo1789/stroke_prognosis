@@ -8,6 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from scipy.ndimage import zoom
 import ants
 import torch
+
 from monai.networks.nets import UNet
 
 def register_images(fixed_path, moving_path):
