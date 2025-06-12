@@ -15,8 +15,8 @@ class StrokeDataset(Dataset):
     def __getitem__(self, idx):
         # 加载CT/MRI数据
         ct_pre = nib.load(f"{self.img_dir}/{self.df.iloc[idx]['ct_pre_path']}").get_fdata()
-        ct_post = nib.load(...)
-        mr_post = nib.load(...)
+        ct_post = nib.load("F:\GGSJJAIDS\image")
+        mr_post = nib.load("F:\GGSJJAIDS\image")
         
         # 加载表格数据
         tabular = self.df.iloc[idx][['age', 'nihss_base', ...]].values

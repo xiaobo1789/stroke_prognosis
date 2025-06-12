@@ -11,10 +11,10 @@ class DAFTMultimodal(nn.Module):
         super(DAFTMultimodal, self).__init__()
         
         # 图像分支 (ResNet-10)
-        self.image_backbone = ResNet10(in_channels=1)
+        self.image_backbone = ResNet10(in_channels=6)
         
         # DAFT模块位置 (在最后一个残差块后)
-        self.daft = DAFT(in_channels=512, tabular_dim=tabular_dim)
+        self.daft = DAFT(in_channels=512, tabular_dim=128)
         
         # 分类头
         self.classifier = nn.Sequential(

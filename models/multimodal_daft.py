@@ -4,7 +4,7 @@ from models.tabnet import TabNet
 from models.resnet3d import generate_resnet10_3d
 
 class DAFTBlock(nn.Module):
-    """动态仿射特征变换模块 (Dynamic Affine Feature Map Transform)"""
+    
     def __init__(self, img_channels, tabular_dim, reduction=4):
         super().__init__()
         self.gap = nn.AdaptiveAvgPool3d(1)  # 全局平均池化
@@ -32,7 +32,7 @@ class DAFTBlock(nn.Module):
         return img_feats * (scale + 1) + shift  # 论文中使用线性激活
 
 class MultimodalDAFT(nn.Module):
-    """多模态DAFT模型 - 整合CT、MRI和表格数据"""
+    
     def __init__(self, tabular_input_dim, num_classes=4, use_tabnet=True):
         super().__init__()
         

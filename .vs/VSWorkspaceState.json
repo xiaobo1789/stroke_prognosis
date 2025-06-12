@@ -2,6 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\configs",
+    "\\data",
+    "\\models",
+    "\\preprocessing",
     "\\scripts",
     "\\stroke_prognosis_env",
     "\\training"
